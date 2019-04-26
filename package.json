@@ -1,0 +1,13 @@
+{
+  "name": "shots-fired-support",
+  "version": "1.0.0",
+  "description": "Support for Shots Fired. An Overwolf app to automate OBS scene switching and source visibility.",
+  "main": "README.md",
+  "repository": "git@github.com:artdevgame/shots-fired-support.git",
+  "author": "Mike Holloway <me@mikeholloway.co.uk>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "changelog": "gren changelog --override --repo=shots-fired"
+  }
+}

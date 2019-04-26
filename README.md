@@ -4,6 +4,8 @@ Shots Fired is an [Overwolf app](https://www.overwolf.com/) that helps to automa
 
 It was developed as part of the [PUBG Developers Challenge](https://play.overwolf.com/pubg-dev-challenge/).
 
+* [Read the changelog](./CHANGELOG.md)
+
 ![](https://cldup.com/VJ48vOLCkW.png)
 
 # Usage
