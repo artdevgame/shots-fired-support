@@ -18,7 +18,7 @@
 ---
 
 ## 2.1.0 (22/04/2019)
-
+* Versioning state changes
 ---
 
 ## 2.0.0 (22/04/2019)
@@ -27,7 +27,7 @@
 ---
 
 ## 1.2.0 (02/04/2019)
-Tracks errors through Sentry
+* Tracks errors through Sentry
 ---
 
 ## 1.1.0 (02/04/2019)
