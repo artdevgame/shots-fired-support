@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.2.2 (03/05/2019)
+* Adds PUBG trademark statement
+---
+
 ## 2.2.1 (26/04/2019)
 * Exposes app/store versions in the help screen and links through to the GitHub support repo.
 * Overwolf only initialised once.
@@ -31,4 +35,4 @@
 ---
 
 ## 1.1.0 (02/04/2019)
-First releasable version
+* First releasable version
