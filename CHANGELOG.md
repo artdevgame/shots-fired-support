@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.0.0 (16/04/2020)
+* The app has been totally rewritten to support more games, split over 2 tiers - free and premium. Premium tier requires an Overwolf subscription.
+---
+
 ## 2.2.2 (03/05/2019)
 * Adds PUBG trademark statement
 ---
