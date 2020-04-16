@@ -9,5 +9,8 @@
   "private": true,
   "scripts": {
     "changelog": "gren changelog --override --repo=shots-fired"
+  },
+  "dependencies": {
+    "github-release-notes": "0.17.1"
   }
 }

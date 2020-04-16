@@ -34,13 +34,13 @@ When choosing a scene, Shots Fired will list all the sources and allow you to se
 
 ![](./assets/visibility.png)
 
-At this point, you may also optionally choose to add a delay and duration. Both are measured in seconds.
+At this point, you may also choose to add a delay and duration interval - both are measured in seconds.
 
 ![](./assets/delay-duration.png)
 
-A `delay` will add time before the source is shown. I.e. If a `jump` event has occurred and your `delay` for a source item called `jump animation` is set to `3` - there will be 3 seconds that pass before OBS shows `jump animation`.
+A `delay` will add time before the source is shown i.e. if a `jump` event has occurred and your `delay` for a source item called `jump animation` is set to `3`, there will be 3 seconds that pass before OBS shows `jump animation`.
 
-A `duration` will hide a source item after the number of seconds has passed. I.e. If your `jump` event has a delay of `5` - the `jump animation` source will run for 5 seconds before hiding.
+A `duration` will hide a source item after the number of seconds has passed i.e. if your `jump` event has a delay of `5`, the `jump animation` source will run for 5 seconds before hiding.
 
 If the delay is set to `0` - the source is shown as soon as the event occurs.
 If the duration is set to `0` - the source will show indefinitely.
@@ -49,16 +49,16 @@ You can preview how the mapping will look by clicking the `test` button. After s
 
 ![](./assets/preview-mapping.png)
 
-If you would like to temporarily disable any mapped events from triggering changes, you can change the toggle state in the settings page from `enabled` to 
+To temporarily disable any mapped events from triggering changes, change the toggle state in the settings page from `enabled` to 
 `disabled`:
 
 ![](./assets/toggle.png)
 
 # Premium Tier
 
-To help support future development of the app Shots Fired offers a _Premium Tier_. Currently the offering is additional game support but will in future include other functionality.
+To help support future development of the app, Shots Fired offers a _Premium Tier_. Currently the offering is additional game support but will in future include other functionality.
 
-A Premium Tier subscription is billed monthly through the Overwolf platform.
+A Premium Tier subscription is billed monthly through the Overwolf platform. [See payment terms](https://www.overwolf.com/legal/terms).
 
 # Support
 
@@ -70,4 +70,4 @@ This software is provided AS IS and AS AVAILABLE. There are no guarantees, warra
 
 Shots Fired runs on Overwolf and depends on the reliability of Overwolf Events to function correctly. Sometimes those events are only partially available or not at all. Shots Fired has no control over this.
 
-Shots Fired is copyright, owned and operated by Mike Holloway. He reserves the right to amend these terms at any time.
+Shots Fired is owned and operated by, and copyright belongs to Mike Holloway. He reserves the right to amend these terms at any time.
