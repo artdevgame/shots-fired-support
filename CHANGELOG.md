@@ -1,5 +1,13 @@
 # Changelog
 
+## 3.1.0 (03/05/2020)
+* Subscriptions are based on events rather than games
+* Added the ability to gift Overwolf users a subscription
+* Better handling of adding/removing scene items in OBS and reflecting in app
+* Hotkey is now game specific rather than global
+* Added Escape from Tarkov
+---
+
 ## 3.0.0 (16/04/2020)
 * The app has been totally rewritten to support more games, split over 2 tiers - free and premium. Premium tier requires an Overwolf subscription.
 ---
