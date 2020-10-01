@@ -4,7 +4,7 @@ Shots Fired is an [Overwolf app](https://www.overwolf.com/) that helps to automa
 
 It was orignially developed as part of the [PUBG Developers Challenge](https://play.overwolf.com/pubg-dev-challenge/) and later expanded to support additional games.
 
-![](./assets/overview.png)
+![](./assets/overview.jpg)
 
 > This documentation is for `v3.0.0` and later, you can find the version of the
 app at the bottom of the Settings page. [Documentation is still available for
@@ -59,7 +59,7 @@ To temporarily disable any mapped events from triggering changes, change the tog
 
 **Requires `v4.0.0+`**
 
-> This is an advanced premium feature and requires some technical knowledge
+> This is an advanced supporters feature and requires some technical knowledge
 
 A webhook allows you to forward in-game event data to a URL of your choice.
 
@@ -73,15 +73,17 @@ All requests are dispatched as a `POST` with the following properties:
 | event | The name of the event that was dispatched, i.e. "kill" |
 | data | The data provided by the game |
 
-# Premium Tier
+# Supporters Tier
 
-To help support future development of the app, Shots Fired offers a _Premium Tier_.
+To help support future development of the app, Shots Fired offers a _Supporters Tier_.
 
-A Premium Tier subscription is billed monthly through the Overwolf platform. [See payment terms](https://www.overwolf.com/legal/terms).
+A Suppoerters Tier subscription is billed monthly through the Overwolf platform. [See payment terms](https://www.overwolf.com/legal/terms).
 
 # Support
 
 If you've found a bug or would like to suggest a feature, [please raise an issue](https://github.com/artdevgame/shots-fired-support/issues).
+
+You're also welcome to join the [Shots Fired Discord group](https://discord.gg/eBBnNfM).
 
 # Terms and Conditions
 
