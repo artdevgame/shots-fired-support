@@ -1,5 +1,14 @@
 # Changelog
 
+## 4.0.0 (01/10/2020)
+* Introduces webhooks for further processing of game event data
+* Adds Overwolf 'info' events
+* Subscriptions are handled 100% by Overwolf again
+* OBS connection details are input inline, rather than on a separate screen
+* App is now more reactive to OBS
+* New games supported (including Valorant & CoD)
+---
+
 ## 3.1.0 (03/05/2020)
 * Subscriptions are based on events rather than games
 * Added the ability to gift Overwolf users a subscription

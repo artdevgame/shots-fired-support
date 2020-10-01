@@ -1,14 +1,13 @@
 # Shots Fired
 
-Shots Fired is an [Overwolf app](https://www.overwolf.com/) that helps to automate scene switching and source item visibility within OBS.
+Shots Fired is an [Overwolf app](https://www.overwolf.com/) that helps to automate and enhance your gaming streams.
 
-It was orignially developed as part of the [PUBG Developers Challenge](https://play.overwolf.com/pubg-dev-challenge/) and later expanded to support additional
-games.
+It was orignially developed as part of the [PUBG Developers Challenge](https://play.overwolf.com/pubg-dev-challenge/) and later expanded to support additional games.
 
-![](./assets/overview.png)
+![](./assets/overview.jpg)
 
 > This documentation is for `v3.0.0` and later, you can find the version of the
-app at the bottom of the Settings page. [Documentation is still available for 
+app at the bottom of the Settings page. [Documentation is still available for
 earlier versions](https://github.com/artdevgame/shots-fired-support/tree/v1.0.0).
 
 * [Read the changelog](./CHANGELOG.md)
@@ -17,12 +16,14 @@ earlier versions](https://github.com/artdevgame/shots-fired-support/tree/v1.0.0)
 
 ## Connecting to OBS
 
-1. Shots Fired requires [obs-websocket](https://github.com/Palakis/obs-websocket/releases) to enable automation. Choose the latest Windows installer and follow the instructions.
+1. Shots Fired requires [obs-websocket](https://github.com/Palakis/obs-websocket/releases) to enable automation of OBS. Choose the latest Windows installer and follow the instructions.
 2. After setting up a password in OBS (`Tools > Websocket server settings > Enable Authentication (checked) > Password`), enter the same password into Shots Fired
 3. The address field should remain as `localhost:4444` unless you changed it in OBS
 4. Click `Connect` to continue.
 
 ## Using Shots Fired
+
+### OBS
 
 A mapping is a 1:1 connection between an in-game event (i.e. `jump`, [see: all events](http://developers.overwolf.com/game_events_status/game_events_status/)) and an OBS `scene`.
 
@@ -49,20 +50,40 @@ You can preview how the mapping will look by clicking the `test` button. After s
 
 ![](./assets/preview-mapping.png)
 
-To temporarily disable any mapped events from triggering changes, change the toggle state in the settings page from `enabled` to 
+To temporarily disable any mapped events from triggering changes, change the toggle state in the settings page from `enabled` to
 `disabled`:
 
 ![](./assets/toggle.png)
 
-# Premium Tier
+### Webhook
 
-To help support future development of the app, Shots Fired offers a _Premium Tier_. Currently the offering is additional game support but will in future include other functionality.
+**Requires `v4.0.0+`**
 
-A Premium Tier subscription is billed monthly through the Overwolf platform. [See payment terms](https://www.overwolf.com/legal/terms).
+> This is an advanced supporters feature and requires some technical knowledge
+
+A webhook allows you to forward in-game event data to a URL of your choice.
+
+This is useful for tracking dynamic metrics, i.e. number of kills vs number of deaths, and using the data to display in OBS with a `Browser` source. [See Example](https://www.youtube.com/watch?v=IZN7lYXm5x4).
+
+All requests are dispatched as a `POST` with the following properties:
+
+| Name | Description |
+| --- | --- |
+| gameId | Overwolf game id |
+| event | The name of the event that was dispatched, i.e. "kill" |
+| data | The data provided by the game |
+
+# Supporters Tier
+
+To help support future development of the app, Shots Fired offers a _Supporters Tier_.
+
+A Suppoerters Tier subscription is billed monthly through the Overwolf platform. [See payment terms](https://www.overwolf.com/legal/terms).
 
 # Support
 
 If you've found a bug or would like to suggest a feature, [please raise an issue](https://github.com/artdevgame/shots-fired-support/issues).
+
+You're also welcome to join the [Shots Fired Discord group](https://discord.gg/eBBnNfM).
 
 # Terms and Conditions
 
