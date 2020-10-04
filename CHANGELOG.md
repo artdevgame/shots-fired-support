@@ -1,5 +1,18 @@
 # Changelog
 
+## 4.0.2 (04/10/2020)
+* Corrects PUBG rank.me example
+---
+
+## 4.0.1 (03/10/2020)
+Bug fixes:
+
+* Updating a scene will cause the selected scene to reset, this prevents the app getting confused about scenes that no longer exist. 
+* Saving an existing mapping for the second time won't reset the configuration unexpectedly
+
+
+---
+
 ## 4.0.0 (01/10/2020)
 * Introduces webhooks for further processing of game event data
 * Adds Overwolf 'info' events
