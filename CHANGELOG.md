@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.0.3 (04/10/2020)
+Bug fix:
+
+* When adding a mapping, don't assume one exists
+---
+
 ## 4.0.2 (04/10/2020)
 * Corrects PUBG rank.me example
 ---
