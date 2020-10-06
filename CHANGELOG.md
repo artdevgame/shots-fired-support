@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.1.0 (06/10/2020)
+- Users can see if they have a mapping on an event (icon)
+---
+
 ## 4.0.3 (04/10/2020)
 Bug fix:
 
