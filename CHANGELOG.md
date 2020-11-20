@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.1.1 (20/11/2020)
+* Bug fix: Some Overwolf events wasn't matching Shots Fired mappings due to the way the event data is structured. Updated the code to return the correct mapping based on a couple of conditions.
+---
+
 ## 4.1.0 (06/10/2020)
 - Users can see if they have a mapping on an event (icon)
 ---
