@@ -1,5 +1,13 @@
 # Changelog
 
+## 4.1.2 (18/01/2021)
+Bug fixes:
+* Protect against undefined.close call
+* Protect against undefined.find call
+
+New game events added
+---
+
 ## 4.1.1 (20/11/2020)
 * Bug fix: Some Overwolf events wasn't matching Shots Fired mappings due to the way the event data is structured. Updated the code to return the correct mapping based on a couple of conditions.
 ---

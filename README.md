@@ -7,10 +7,10 @@ It was orignially developed as part of the [PUBG Developers Challenge](https://p
 ![](./assets/overview.jpg)
 
 > This documentation is for `v3.0.0` and later, you can find the version of the
-app at the bottom of the Settings page. [Documentation is still available for
-earlier versions](https://github.com/artdevgame/shots-fired-support/tree/v1.0.0).
+> app at the bottom of the Settings page. [Documentation is still available for
+> earlier versions](https://github.com/artdevgame/shots-fired-support/tree/v1.0.0).
 
-* [Read the changelog](./CHANGELOG.md)
+- [Read the changelog](./CHANGELOG.md)
 
 # Usage
 
@@ -67,17 +67,19 @@ This is useful for tracking dynamic metrics, i.e. number of kills vs number of d
 
 All requests are dispatched as a `POST` with the following properties:
 
-| Name | Description |
-| --- | --- |
-| gameId | Overwolf game id |
-| event | The name of the event that was dispatched, i.e. "kill" |
-| data | The data provided by the game |
+| Name   | Description                                            |
+| ------ | ------------------------------------------------------ |
+| gameId | Overwolf game id                                       |
+| event  | The name of the event that was dispatched, i.e. "kill" |
+| data   | The data provided by the game                          |
+
+See [kills-death-wins](https://github.com/artdevgame/kills-death-wins) as an example of how to use this functionality in Fortnite.
 
 # Supporters Tier
 
-To help support future development of the app, Shots Fired offers a _Supporters Tier_.
+To help support future development of the app, Shots Fired offers a `Supporters Tier`.
 
-A Suppoerters Tier subscription is billed monthly through the Overwolf platform. [See payment terms](https://www.overwolf.com/legal/terms).
+A `Supporters Tier` subscription is billed monthly through the Overwolf platform. [See payment terms](https://www.overwolf.com/legal/terms).
 
 # Support
 
