@@ -1,5 +1,22 @@
 # Changelog
 
+## 4.2.0 (28/01/2021)
+* Reduced games to: Apex, CoD, CS:GO, Dota 2, Fortnite, Hearthstone,
+  Heros of the Storm, LoL, Overwatch, PoE, PUBG, R6: Siege, Rocket
+  League and Valorant
+* Reduced events for each game
+* Added a 'Reset app' button on the settings page that will remove any
+  existing mappings for OBS or Webhooks
+
+I'm currently working through the next version of Shots Fired but have
+found it difficult to identify issues in the current version. By
+reducing the games and events to ones that I can actively support I can
+focus my efforts more onto v5.
+
+I'm open to restoring games/events if there's something in particular
+you'd like - just jump in the Discord group to let me know.
+---
+
 ## 4.1.2 (18/01/2021)
 Bug fixes:
 * Protect against undefined.close call
