@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.2.1 (17/10/2021)
+* Removes requirement for a subscription
+---
+
 ## 4.2.0 (28/01/2021)
 * Reduced games to: Apex, CoD, CS:GO, Dota 2, Fortnite, Hearthstone,
   Heros of the Storm, LoL, Overwatch, PoE, PUBG, R6: Siege, Rocket
@@ -46,7 +50,7 @@ Bug fix:
 ## 4.0.1 (03/10/2020)
 Bug fixes:
 
-* Updating a scene will cause the selected scene to reset, this prevents the app getting confused about scenes that no longer exist. 
+* Updating a scene will cause the selected scene to reset, this prevents the app getting confused about scenes that no longer exist.
 * Saving an existing mapping for the second time won't reset the configuration unexpectedly
 
 
