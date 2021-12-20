@@ -2,7 +2,7 @@
 
 Shots Fired is an [Overwolf app](https://www.overwolf.com/) that helps to automate and enhance your gaming streams.
 
-It was orignially developed as part of the [PUBG Developers Challenge](https://play.overwolf.com/pubg-dev-challenge/) and later expanded to support additional games.
+It was orignially developed as part of the [PUBG Developers Challenge](https://medium.com/overwolf/introducing-the-pubg-dev-challenge-a7421f1d61a1) and later expanded to support additional games.
 
 ![](./assets/overview.png)
 
