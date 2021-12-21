@@ -1,5 +1,21 @@
 # Changelog
 
+## 5.0.1 (21/12/2021)
+A total rewrite of the app.
+
+- Adds the concept of 'sequences' for chaining actions together, triggered by a game event
+- Filter by event data to target when a sequence should run
+- Added an event log browser to inspect payloads (helps when writing filter functions)
+- Actions supported: OBS, webhooks and delays
+- Frequency tool added to create more randomness
+- OBS can now target scene collections and allows controlling of source items on an individual basis
+- Export and import of settings to allow the user to backup and share their configurations
+- More game support added
+- All events have a description to make it easier to understand what their intention is
+- App no longer starts on game launch (requested) and in-game UI is much more compact
+
+---
+
 ## 4.2.1 (17/10/2021)
 * Removes requirement for a subscription
 ---
@@ -50,7 +66,7 @@ Bug fix:
 ## 4.0.1 (03/10/2020)
 Bug fixes:
 
-* Updating a scene will cause the selected scene to reset, this prevents the app getting confused about scenes that no longer exist.
+* Updating a scene will cause the selected scene to reset, this prevents the app getting confused about scenes that no longer exist. 
 * Saving an existing mapping for the second time won't reset the configuration unexpectedly
 
 
