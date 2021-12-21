@@ -37,11 +37,12 @@ Since **v5.x**, a user can now create a sequence of actions that are executed wh
 
 Currently the following action types are supported:
 
-- `delay`: A mechanism used to add a time delay between actions in a sequence.
 - `obs`: A mechanism to control OBS scene and source visibility.
 - `webhook`: A mechanism used to forward event data to a webserver for further processing.
 
-With a [subscription](#subscription), a sequence can optionally be filtered by event data and shown on a randomised frequency.
+Delays can be added between actions in a sequence.
+
+With a [subscription](#subscription), there is an option to filter the sequence by event data and randomise the frequency of when it's shown.
 
 ### OBS
 
@@ -49,13 +50,13 @@ Each OBS scene can have one or more sources, for example:
 
 ![](./assets/obs.png)
 
-When selecting a scene in Shots Fired, the app will list all the sources you have setup in OBS.
+When selecting a scene in Shots Fired, the app will list all the sources you have set up in OBS.
 
 To have Shots Fired control a source, you must `activate` it:
 
 ![](./assets/control.png)
 
-When a source item is `ative`, Shots Fired allows you to select whether it should be visible using an on/off toggle:
+When a source item is `active`, Shots Fired allows you to select whether it should be visible using an on/off toggle:
 
 ![](./assets/visibility.png)
 
