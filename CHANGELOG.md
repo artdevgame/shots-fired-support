@@ -1,5 +1,12 @@
 # Changelog
 
+## 5.0.2 (27/12/2021)
+Fixes 2 bugs:
+
+1. Closing one game and opening another shouldn't prevent events from working.
+2. A fix to stop events repeating when game loses/gains focus.
+---
+
 ## 5.0.1 (21/12/2021)
 A total rewrite of the app.
 
