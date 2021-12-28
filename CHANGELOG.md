@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.0.3 (28/12/2021)
+- Bug fix: Prevent duplicate events triggering when info update occurs
+---
+
 ## 5.0.2 (27/12/2021)
 Fixes 2 bugs:
 
