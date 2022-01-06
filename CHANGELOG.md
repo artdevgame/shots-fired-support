@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.1.0 (06/01/2022)
+- Adds Football Manager 2022
+---
+
 ## 5.0.3 (28/12/2021)
 - Bug fix: Prevent duplicate events triggering when info update occurs
 ---
