@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.1.1 (07/01/2022)
+- Webhooks should now work with external providers
+---
+
 ## 5.1.0 (06/01/2022)
 - Adds Football Manager 2022
 ---
