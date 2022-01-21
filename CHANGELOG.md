@@ -1,5 +1,10 @@
 # Changelog
 
+## 5.2.0 (21/01/2022)
+- Adds Halo Infinite and Hunt: Showdown.
+- Fixes bug in subscription code that enabled subscribers pack to everyone
+---
+
 ## 5.1.1 (07/01/2022)
 - Webhooks should now work with external providers
 ---
