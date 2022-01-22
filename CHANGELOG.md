@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.2.1 (22/01/2022)
+- Adds more telemetry to help with debugging problems
+---
+
 ## 5.2.0 (21/01/2022)
 - Adds Halo Infinite and Hunt: Showdown.
 - Fixes bug in subscription code that enabled subscribers pack to everyone
