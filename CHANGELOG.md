@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.2.2 (27/01/2022)
+- Fixes Minecraft game events (possibly others too)
+---
+
 ## 5.2.1 (22/01/2022)
 - Adds more telemetry to help with debugging problems
 ---
