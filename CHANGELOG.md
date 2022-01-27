@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.2.3 (27/01/2022)
+- The app was being targeted for a dev version of Overwolf, which isn't available to public. `5.2.3` fixes that issue.
+---
+
 ## 5.2.2 (27/01/2022)
 - Fixes Minecraft game events (possibly others too)
 ---
