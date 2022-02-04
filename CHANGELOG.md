@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.2.4 (04/02/2022)
+- Prevents `info` events from triggering when Overwolf provide `null` values
+---
+
 ## 5.2.3 (27/01/2022)
 - The app was being targeted for a dev version of Overwolf, which isn't available to public. `5.2.3` fixes that issue.
 ---
