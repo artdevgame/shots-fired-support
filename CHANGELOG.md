@@ -1,5 +1,11 @@
 # Changelog
 
+## 5.3.1 (13/02/2022)
+- Contains `5.3.0`, which was only released to 25% of public
+- Adds event sampling, which will be used to help auto-document `payload` within the payload filter functionality
+- Adds latest Overwolf game events
+---
+
 ## 5.2.4 (04/02/2022)
 - Prevents `info` events from triggering when Overwolf provide `null` values
 ---
