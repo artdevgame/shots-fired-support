@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.4.0 (18/02/2022)
+- App can be launched on game / Overwolf launch
+---
+
 ## 5.3.1 (13/02/2022)
 - Contains `5.3.0`, which was only released to 25% of public
 - Adds event sampling, which will be used to help auto-document `payload` within the payload filter functionality
@@ -171,7 +175,3 @@ Bug fixes:
 
 ## 1.2.0 (02/04/2019)
 * Tracks errors through Sentry
----
-
-## 1.1.0 (02/04/2019)
-* First releasable version
