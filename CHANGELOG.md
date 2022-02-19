@@ -1,5 +1,10 @@
 # Changelog
 
+## 5.4.1 (19/02/2022)
+- Fix OBS test button
+- Sample everything once
+---
+
 ## 5.4.0 (18/02/2022)
 - App can be launched on game / Overwolf launch
 ---
@@ -171,7 +176,3 @@ Bug fixes:
 ## 2.0.0 (22/04/2019)
 * New UI
 * Adds delay / duration form controls
----
-
-## 1.2.0 (02/04/2019)
-* Tracks errors through Sentry
