@@ -1,5 +1,25 @@
 # Changelog
 
+## 5.4.5 (25/03/2022)
+- Adds a button to view the Overwolf documentation for a game event when filtering by payload
+- Adds a close button to the payload info modal
+- Stops sampling event data
+- Refactors build tools
+- Cleaned up licensing files
+---
+
+## 5.4.4 (23/02/2022)
+- Don't sample if `info`-type event & empty payload
+---
+
+## 5.4.3 (19/02/2022)
+- Fixes sampling bug where payload object can be undefined because Overwolf don't always key on feature name
+---
+
+## 5.4.2 (19/02/2022)
+- Stops sampling whilst I figure out why it's logging "Cannot convert undefined or null to object"
+---
+
 ## 5.4.1 (19/02/2022)
 - Fix OBS test button
 - Sample everything once
@@ -155,24 +175,3 @@ Bug fixes:
 ## 2.2.1 (26/04/2019)
 * Exposes app/store versions in the help screen and links through to the GitHub support repo.
 * Overwolf only initialised once.
----
-
-## 2.2.0 (26/04/2019)
-* Tweaks based on best-practices, tech-review template and store submission docs
-* App closes when game exits
-* Help videos only available when connected to Internet
----
-
-## 2.1.1 (22/04/2019)
-* Control hotkeys from settings
-* Adds a button to the help page to navigate to main screen
-* Assets no longer stored in state
----
-
-## 2.1.0 (22/04/2019)
-* Versioning state changes
----
-
-## 2.0.0 (22/04/2019)
-* New UI
-* Adds delay / duration form controls
