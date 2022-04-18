@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.4.6 (18/04/2022)
+- Better event handling in Apex
+---
+
 ## 5.4.5 (25/03/2022)
 - Adds a button to view the Overwolf documentation for a game event when filtering by payload
 - Adds a close button to the payload info modal
@@ -170,8 +174,3 @@ Bug fixes:
 
 ## 2.2.2 (03/05/2019)
 * Adds PUBG trademark statement
----
-
-## 2.2.1 (26/04/2019)
-* Exposes app/store versions in the help screen and links through to the GitHub support repo.
-* Overwolf only initialised once.
