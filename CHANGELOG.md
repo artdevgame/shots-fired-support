@@ -1,5 +1,10 @@
 # Changelog
 
+## 5.4.7 (22/04/2022)
+- Better info event matching (keys now use regex). 
+- Data passed to webhook via test button should now better reflect the actual structure of events Overwolf send - though the samples may be wrong still as they're based on sample data from Overwolf
+---
+
 ## 5.4.6 (18/04/2022)
 - Better event handling in Apex
 ---
@@ -170,7 +175,3 @@ Bug fixes:
 
 ## 3.0.0 (16/04/2020)
 * The app has been totally rewritten to support more games, split over 2 tiers - free and premium. Premium tier requires an Overwolf subscription.
----
-
-## 2.2.2 (03/05/2019)
-* Adds PUBG trademark statement
