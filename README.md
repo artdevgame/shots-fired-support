@@ -16,7 +16,7 @@ It was orignially developed as part of the [PUBG Developers Challenge](https://m
 
 ## Connecting to OBS
 
-1. Shots Fired requires [obs-websocket](https://github.com/Palakis/obs-websocket/releases) to enable automation of OBS. Choose the latest **(v4.*)** Windows installer and follow the instructions. **Please note, Shots Fired doesn't currently support (v5.*) of `obs-websocket`.**
+1. Shots Fired requires [obs-websocket](https://github.com/obsproject/obs-websocket/releases/tag/4.9.1) to enable automation of OBS. Choose the latest **(v4.*)** Windows installer and follow the instructions. **⚠️ Please note, Shots Fired doesn't currently support (v5.*) of `obs-websocket`. ⚠️**
 2. After setting up a password in OBS (`Tools > Websocket server settings > Enable Authentication (checked) > Password`), enter the same password into Shots Fired
 3. The address field should remain as `localhost:4444` unless you changed it in OBS
 4. Click `Connect` to continue.
